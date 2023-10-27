@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 80vh;
+    padding: 10px;
+    margin-top: 80px;
+    
+}
+.main-1{
+
+    display: grid;
+    height: 80vh;
+    margin-left: 150px;/*for center full text to the left in main1 container*/
+    justify-content: center;
+    border: 3px solid rgb(78, 78, 82);
+    border-radius: 3px;
+    background-color:rgb(187, 185, 201);
+    color: white;
+}
+.main-2{
+
+    display: grid;
+    height: 80vh;
+    margin-right: 150px;/*for center full text to the right in main2 container*/
+    justify-content: center;
+    border: 2px soild rgb(212, 195, 178);
+    border-radius: 3px;
+    background-color: rgb(215, 226, 222);
+    color: white;
+}
+.heading{
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+.text1{
+
+    font-size: 15px;
+    text-align: center;
+}
+.heading-1{
+
+    font-size: 15px;
+    text-align: center;
+    margin-right: 25px;
+}
+.text2{
+
+    font-size: 15px;
+    text-align: center;
+}
+.text3{
+
+    text-align: center;
+}
+.tit1{
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+    padding: 8px;
+    text-align: center;
+}
+.tit2{
+
+    font-size: 15px;
+}
+.fname{
+
+    margin: 5px;
+    padding: 8px;
+}
+.lname{
+
+    margin: 5px;
+    padding: 8px;
+}
+.mail{
+
+    margin: 5px;
+    padding: 8px;
+}
+.tit3{
+    
+    padding-left: 25px;
+}
+.date{
+
+    padding-right: 25px;
+}
