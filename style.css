@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
 
@@ -9,29 +10,29 @@
     grid-template-columns: auto auto;
     height: 80vh;
     padding: 10px;
-    margin-top: 80px;
+    margin-top: 50px;
     
 }
 .main-1{
 
     display: grid;
-    height: 80vh;
+    /* height: 80vh; */
     margin-left: 150px;/*for center full text to the left in main1 container*/
     justify-content: center;
     border: 3px solid rgb(78, 78, 82);
     border-radius: 3px;
-    background-color:rgb(187, 185, 201);
+    background-color:gray;
     color: white;
 }
 .main-2{
 
     display: grid;
-    height: 80vh;
+    /* height: 80vh; */
     margin-right: 150px;/*for center full text to the right in main2 container*/
     justify-content: center;
     border: 2px soild rgb(212, 195, 178);
     border-radius: 3px;
-    background-color: rgb(215, 226, 222);
+    background-color: blueviolet;
     color: white;
 }
 .heading{
@@ -41,9 +42,14 @@
     margin-top: 100px;
     text-align: center;
 }
+.flex{
+    display: flex;
+    gap: 1px;
+    
+}
 .text1{
 
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
 }
 .heading-1{
@@ -52,22 +58,33 @@
     text-align: center;
     margin-right: 25px;
 }
+.image{
+
+    padding: 5px;
+}
+.image img{
+
+    border-radius: 75px;
+    margin-left: 40px;
+}
 .text2{
 
+    margin-left: 40px;
     font-size: 15px;
     text-align: center;
 }
 .text3{
 
+    margin: 70px;
     text-align: center;
 }
 .tit1{
 
     font-size: 25px;
-    font-weight: bold;
     margin-top: 100px;
     padding: 8px;
     text-align: center;
+    color: black;
 }
 .tit2{
 
@@ -75,24 +92,55 @@
 }
 .fname{
 
-    margin: 5px;
+    margin: 3px;
+    margin-left: 50px;
     padding: 8px;
+    width: 120px;
+
+
+  
 }
 .lname{
 
-    margin: 5px;
+    margin: 3px;
+    margin-right:50px;
     padding: 8px;
+    width:120px;
+    
 }
 .mail{
 
-    margin: 5px;
-    padding: 8px;
+    margin: 5px 52px;
+    padding: 5px;
+    width: 243px;
+   
 }
 .tit3{
     
-    padding-left: 25px;
+    padding-left: 70px;
+    font-size: 20px;
 }
 .date{
 
-    padding-right: 25px;
+    margin: 5px 50px;
+    padding: 8px 30px;
+    width: 243px;
+     
+}
+.button{
+
+    text-align: center;
+
+}
+.button button{
+
+    margin: 5px 50px;
+    padding: 8px 70px;
+    border-radius: 5%;
+    background-color: blue;
+    color:white;
+    font-size: 12px;
+    float: left;
+    text-align: center;
+    width: 243px;
 }
